@@ -71,3 +71,15 @@ MCA Student | Cloud & AI Enthusiast
 - Prescription OCR
 - Multi-language Support
 - Docker Deployment
+
+
+## 📸 Project Screenshots
+
+### AI Assistant
+![AI Assistant](screenshots/ai-assistent.png)
+
+### Appointment Management
+![Appointment](screenshots/appoitement.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
