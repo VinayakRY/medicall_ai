@@ -72,14 +72,13 @@ MCA Student | Cloud & AI Enthusiast
 - Multi-language Support
 - Docker Deployment
 
-
 ## 📸 Project Screenshots
 
 ### 🏠 Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### 🤖 AI Assistant
-![AI Assistant](./screenshots/ai-assistant.png)
+![AI Assistant](screenshots/ai-assistent.png)
 
 ### 📅 Appointment System
-![Appointment](./screenshots/appointment.png)
+![Appointment](screenshots/appointment.png)
