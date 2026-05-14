@@ -78,7 +78,7 @@ MCA Student | Cloud & AI Enthusiast
 ![Dashboard](screenshots/dashboard.png)
 
 ### 🤖 AI Assistant
-![AI Assistant](screenshots/ai-assistent.png)
+![AI Assistant](screenshots/ai-assistant.png)
 
 ### 📅 Appointment System
 ![Appointment](screenshots/appointment.png)
