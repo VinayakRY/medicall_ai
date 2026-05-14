@@ -75,11 +75,11 @@ MCA Student | Cloud & AI Enthusiast
 
 ## 📸 Project Screenshots
 
-### AI Assistant
-![AI Assistant](screenshots/ai-assistent.png)
+### 🏠 Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-### Appointment Management
-![Appointment](screenshots/appoitement.png)
+### 🤖 AI Assistant
+![AI Assistant](./screenshots/ai-assistent.png)
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
+### 📅 Appointment System
+![Appointment](./screenshots/appointment.png)
