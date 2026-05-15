@@ -3,8 +3,11 @@ import requests
 import pandas as pd
 import plotly.express as px
 from streamlit_option_menu import option_menu
+from streamlit_autorefresh import st_autorefresh
 
-API_URL = "http://127.0.0.1:8000"
+st_autorefresh(interval=5000, key="refresh")
+
+API_URL = "https://medicall-ai.onrender.com"
 
 # ===================================
 # PAGE CONFIG
