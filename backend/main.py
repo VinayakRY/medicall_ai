@@ -8,7 +8,7 @@ from models import Base, Patient, Appointment
 from twilio.rest import Client
 from dotenv import load_dotenv
 
-from transformers import pipeline
+# from transformers import pipeline
 
 from datetime import datetime
 import os
@@ -218,10 +218,10 @@ def delete_appointment(appointment_id: int):
 # FREE AI MODEL
 # ===================================
 
-chatbot = pipeline(
-    "text-generation",
-    model="distilgpt2"
-)
+# chatbot = pipeline(
+#     "text-generation",
+#     model="distilgpt2"
+# )
 # ===================================
 # AI CHAT
 # ===================================
