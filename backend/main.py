@@ -93,14 +93,39 @@ def add_patient(
 # GET PATIENTS
 # ===================================
 
+# @app.get("/patients")
+# def get_patients():
+
+#     db = SessionLocal()
+
+#     patients = db.query(Patient).all()
+
+#     return patients
+
 @app.get("/patients")
 def get_patients():
 
     db = SessionLocal()
 
-    patients = db.query(Patient).all()
+    try:
 
-    return patients
+        patients = db.query(Patient).all()
+
+        return [
+            {
+                "id": p.id,
+                "name": p.name,
+                "phone": p.phone,
+                "language": p.language
+            }
+            for p in patients
+        ]
+
+    except Exception as e:
+
+        return {
+            "error": str(e)
+        }
 
 # ===================================
 # DELETE PATIENT
@@ -174,17 +199,43 @@ def add_appointment(
 # GET APPOINTMENTS
 # ===================================
 
+# @app.get("/appointments")
+# def get_appointments():
+
+#     db = SessionLocal()
+
+#     appointments = db.query(
+#         Appointment
+#     ).all()
+
+#     return appointments
+
+
 @app.get("/appointments")
 def get_appointments():
 
     db = SessionLocal()
 
-    appointments = db.query(
-        Appointment
-    ).all()
+    try:
 
-    return appointments
+        appointments = db.query(Appointment).all()
 
+        return [
+            {
+                "id": a.id,
+                "patient_id": a.patient_id,
+                "doctor_name": a.doctor_name,
+                "appointment_date": str(a.appointment_date),
+                "status": a.status
+            }
+            for a in appointments
+        ]
+
+    except Exception as e:
+
+        return {
+            "error": str(e)
+        }
 # ===================================
 # DELETE APPOINTMENT
 # ===================================
