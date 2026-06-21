@@ -4,7 +4,8 @@ import pandas as pd
 import plotly.express as px
 from streamlit_option_menu import option_menu
 
-API_URL = "http://127.0.0.1:8000"
+# API_URL = "http://127.0.0.1:8000"
+API_URL = "https://medicall-ai-ywog.onrender.com"
 
 # ===================================
 # PAGE CONFIG
